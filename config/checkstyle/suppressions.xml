@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+    "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+    "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+
+<!-- Javadoc is required for production API, not for tests and test helpers. -->
+<suppressions>
+  <suppress files="[\\/]src[\\/]test[\\/]"
+            checks="JavadocMethod|MissingJavadocMethod|MissingJavadocType|SummaryJavadoc|NonEmptyAtclauseDescription|JavadocParagraph|RequireEmptyLineBeforeBlockTagGroup|AtclauseOrder|SingleLineJavadoc|InvalidJavadocPosition|JavadocTagContinuationIndentation"/>
+</suppressions>

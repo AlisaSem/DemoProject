@@ -1,0 +1,62 @@
+# Maven
+target/
+
+# Compiled / packaged
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+
+# Test reports
+allure-results/
+allure-report/
+.allure/
+test-output/
+
+# IntelliJ IDEA — local/user-specific
+*.iml
+*.iws
+*.ipr
+out/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries/
+.idea/**/shelf/
+.idea/httpRequests/
+.idea/caches/
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/sqldialects.xml
+.idea/inspectionProfiles/
+.idea/copilot/
+
+# Eclipse / VS Code (if opened outside IDEA)
+.classpath
+.project
+.settings/
+.bin/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Local secrets and env
+.env
+.env.*
+*.local
